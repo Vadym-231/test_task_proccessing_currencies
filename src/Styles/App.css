@@ -1,0 +1,72 @@
+.header-container {
+  display: inline-flex;
+  height: 90px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+  padding: 0 30px;
+  width: calc(100% - 60px);
+  box-shadow: 0px 1px 7px 0px inset gray;
+  border-radius: 8px;
+}
+.header-container img {
+  width: 38px;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header-container img:hover {
+  border-color: lightblue;
+}
+.header-container .header-logo {
+  padding: 0 30px;
+}
+.header-container .header-tabs {
+  display: flex;
+  min-width: 220px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header-tabs .header-tab {
+
+}
+.header-tab a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  font-variant: petite-caps;
+  transition: 0.3s;
+}
+.header-tab a:hover {
+  color: lightblue;
+}
+
+.main-page-date-controller-container {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 15px 0;
+}
+.main-page-date-controller {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: baseline;
+  min-width: 350px;
+  justify-content: space-evenly;
+}
+
+.main-page-date-controller .title {
+  font-size: 26px;
+  font-weight: 500;
+}
